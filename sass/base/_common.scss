@@ -1,0 +1,46 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+body {
+  color: $primary-text-color;
+  font-family: 'Poppins';
+  letter-spacing: 0.03em;
+  font-size: 16px;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+p {
+  color: $secondary-text-color;
+}
+ul {
+  padding-inline-start: 10px;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.list {
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+}
+.padding {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  @media screen and (max-width: 767px) {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  @media screen and (max-width: 1199px) {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
