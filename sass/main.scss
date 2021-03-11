@@ -1,0 +1,16 @@
+//UTILS
+@import './utils/variables';
+
+//BASE
+@import './base/common';
+@import './base/container';
+
+//COMPONENTS
+@import "./components/modal";
+@import "./components/button";
+
+//LAYOUT
+@import "./layout/header";
+@import "./layout/hero";
+@import "./layout/advantages";
+@import "./layout/faq";
