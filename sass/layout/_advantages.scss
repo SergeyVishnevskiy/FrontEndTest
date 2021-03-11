@@ -1,0 +1,94 @@
+.advantages {
+  padding: 30px 15px 60px;
+  &-title {
+    font-size: 28px;
+    text-align: center;
+    line-height: 1.28;
+    margin-top: 0px;
+  }
+  &-text {
+    font-size: 12px;
+    text-align: center;
+    line-height: 1.62;
+    margin-top: 0px;
+    margin-bottom: 30px;
+  }
+  &-card {
+    display: block;
+    text-align: center;
+    max-width: 395px;
+    margin: 0 auto;
+    &-img {
+      margin: 0px auto 16px;
+    }
+    &-title {
+      font-size: 18px;
+      margin-top: 0;
+      margin-bottom: 15px;
+    }
+    &-text {
+      font-size: 16px;
+      margin: 0px;
+    }
+  }
+  &-list-item:not(:last-child) {
+    margin-bottom: 35px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .advantages {
+    padding: 50px 15px;
+    &-list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    &-card {
+      max-width: 300px;
+      margin: 0 15px;
+      &-img {
+        margin: 0px auto 36px;
+      }
+      &-title {
+        font-size: 20px;
+        margin-top: 0;
+        margin-bottom: 15px;
+      }
+    }
+    &-title {
+      font-size: 32px;
+    }
+    &-text {
+      font-size: 16px;
+      max-width: 632px;
+      margin: 0 auto 64px;
+    }
+  }
+}
+@media screen and (min-width: 1040px) {
+  .advantages {
+    padding: 131px 0px 217px;
+    &-list {
+      max-width: 962px;
+      max-height: 530px;
+      &-item:first-child {
+        margin-bottom: 70px;
+      }
+    }
+    &-card {
+      max-width: 258px;
+      height: 230px;
+    }
+    &-text {
+      font-size: 16px;
+      max-width: 670px;
+      margin: 0 auto 94px;
+    }
+    &-title {
+      font-size: 36px;
+      max-width: 452px;
+      margin: 0 auto 35px;
+    }
+  }
+}

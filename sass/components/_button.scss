@@ -1,4 +1,45 @@
 .button {
-  width: 170px;
-  height: 57px;
+  min-width: 170px;
+  min-height: 57px;
+  border-radius: 29px;
+  color: $white-color;
+  background-color: #2500f9;
+  outline: none;
+  border: none;
+  &:hover,
+  &:focus {
+    color: #2500f9;
+    background-color: $white-color;
+    border: 2px solid #2500f9;
+  }
+}
+.primary-deck {
+  min-width: 100px;
+  min-height: 40px;
+  @media screen and (min-width: 1040px) {
+    min-width: 170px;
+    min-height: 57px;
+  }
+}
+.primary {
+  min-width: 100px;
+  min-height: 40px;
+  margin-right: 100px;
+  margin-bottom: 20px;
+  @media screen and (min-width: 1040px) {
+    min-width: 170px;
+    min-height: 57px;
+    margin-right: 20px;
+    margin-bottom: 0px;
+  }
+}
+.secondary {
+  color: #2500f9;
+  background-color: transparent;
+  min-width: 120px;
+  min-height: 40px;
+  @media screen and (min-width: 1040px) {
+    min-width: 170px;
+    min-height: 57px;
+  }
 }
