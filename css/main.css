@@ -511,7 +511,7 @@ img {
   .hero-bg-img {
     width: 100%;
     margin: 0 auto;
-    background-image: url("../../../image/hero/herobg.png");
+    background-image: url("../../image/hero/herobg.png");
     background-size: contain;
     background-position: right 20px;
   }
