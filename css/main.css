@@ -500,8 +500,8 @@ img {
 
 .hero-bg-img {
   height: 450px;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.6)), to(rgba(255, 255, 255, 0.6))), url("./image/hero/phone.png");
-  background-image: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url("./image/hero/phone.png");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.6)), to(rgba(255, 255, 255, 0.6))), url("./../image/hero/phone.png");
+  background-image: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url("./../image/hero/phone.png");
   background-size: 284px 419px;
   background-position: right;
   background-repeat: no-repeat;
@@ -511,7 +511,7 @@ img {
   .hero-bg-img {
     width: 100%;
     margin: 0 auto;
-    background-image: url("./image/hero/herobg.png");
+    background-image: url("./../image/hero/herobg.png");
     background-size: contain;
     background-position: right 20px;
   }
